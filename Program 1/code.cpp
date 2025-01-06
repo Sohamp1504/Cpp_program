@@ -12,10 +12,15 @@ int main(){
     {
       cout<<"\n"<<n<<"Is positive";
     }
-  else
+  else if
     {
       cout<<"\n"<<n<<"Is Negative";
     }
 
+  //This checks if the number is zero.
+  else {
+    cout << "\n The number is Zero";
+  }
+  
   return 0;
 }
